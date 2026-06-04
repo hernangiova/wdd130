@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="This page will be an example of wwr page">
+    <meta author="Rodrigo Giovani Hernandez Romero">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Rafting Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="company-info">
+            <h1>White Water Rafting Company</h1>
+
+            <p>123 Main River Street</p>
+            <p>Kolob, California</p>
+            <p>+1 123 456 7890</p>
+            <p>info@whitewater.com</p>
+        </section>
+
+        <section class="contact-container">
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7127.054918895918!2d-122.07580440796747!3d38.26541284342754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808516a5958da6cb%3A0x8be24a705263f407!2s1757%20Kolob%20Ct%2C%20Fairfield%2C%20CA%2094534%2C%20USA!5e0!3m2!1sen!2sgt!4v1780536189008!5m2!1sen!2sgt"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <form>
+                <div class="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="purpose-group">
+                    <label class="purpose-label">Message Purpose</label>
+
+                    <div class="radio-group">
+                        <label><input type="radio" name="purpose" value="general">General
+                            Inquiry</label>
+                        <label><input type="radio" name="purpose" value="reservation">Reservation
+                            Question</label>
+                        <label><input type="radio" name="purpose" value="suggestion">Website
+                            Suggestion</label>
+                    </div>
+                </div>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+
+                <label><input type="checkbox" name="newsletter">Please subscribe me to the monthly
+                    newsletter</label>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
+
+        <section class="employees">
+            <h2>We are Here to Serve You</h2>
+
+            <div class="employee-gallery">
+                <figure>
+                    <img src="images/employe1.jpg" alt="Employee 1">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee2.jpg" alt="Employee 2">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee3.jpg" alt="Employee 3">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 🚣🏻 White Water Rafting 🚣🏻 Rodrigo Hernandez</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.webp" alt="Facebook Logo" width="100">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.webp" alt="Linkedin Logo" width="100">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.webp" alt="Intagram Logo" width="100">
+            </a>
+        </nav>
+    </footer>
+</body>
